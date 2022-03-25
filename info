@@ -1,0 +1,630 @@
+{
+  "uuid": "f94c1d48099af95be5b9d7100e6291f0",
+  "path": "Offline/NakujaPowerDistributionBoard",
+  "name": "NakujaPowerDistributionBoard",
+  "content": "This is Nakuja Power Distribution Board",
+  "created_at": "2022-03-20 12:41:39",
+  "updated_at": "2022-03-24 21:52:20",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "939eb28d5883b793b3748b31bd0e4f89",
+      "title": "Connectors",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e121d28526db42a1ab28c19b6da8c1fc": 8,
+        "47d98c9c68d6170a5582756e1844827b": 2,
+        "b585d92194385de14506b560a4a27e20": 2,
+        "c2a8c52f6bda437986231e6186a19bb5": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "B2B-XH-A (LF)(SN)",
+          8,
+          "CONN-TH_B2B-XH-A-LF-SN",
+          "AVIONICS1,CAMERA1,CAMERA2,EJECTION1,EJECTION2,FLIGHTCONTROL1,MOTOR1,TELEMETRY1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C158012",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3f20d4fbe7e743aa934c5cd06284db1c",
+            "uuid": "e121d28526db42a1ab28c19b6da8c1fc"
+          }
+        ],
+        [
+          "XT60PW-M",
+          2,
+          "CONN-TH_XT60PW-M",
+          "BATTERY1,BATTERY2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C98732",
+            "BOM_Manufacturer": "AMASS(艾迈斯)",
+            "BOM_Manufacturer Part": "XT60PW-M",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "165d52f5585146ec9f2302224e9153f2",
+            "uuid": "c2a8c52f6bda437986231e6186a19bb5"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0402",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
+          }
+        ],
+        [
+          "AO3401A",
+          2,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3401A",
+            "BOM_Supplier Part": "C15127",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "47d98c9c68d6170a5582756e1844827b"
+          }
+        ],
+        [
+          "White light_C2290",
+          3,
+          "LED0603-R-RD_WHITE",
+          "1V,1.8V,2V",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "100nF",
+          3,
+          "C0402_NEW",
+          "C3,C9,C14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "176eead66a5c45e698aceb33a5f6fe97",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C0402",
+          "C4,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415703",
+            "BOM_Manufacturer": "Murata Electronics",
+            "BOM_Manufacturer Part": "GRM155R60J226ME11D",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "ae84e89aa2a14b76b7b340c50b8fd393"
+          }
+        ],
+        [
+          "4.7uF",
+          6,
+          "CAP-SMD_BD4.0-L4.3-W4.3-LS5.3-FD",
+          "C5,C6,C7,C8,C11,C12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ROQANG",
+            "BOM_Manufacturer Part": "RVT1V4R7M0405",
+            "BOM_Supplier Part": "C72511",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "751adf5dc5934c85b0f6759a18fc4e5e",
+            "uuid": "03e4e26269207850c5e97889e40b1764"
+          }
+        ],
+        [
+          "330nF",
+          1,
+          "C0402",
+          "C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527033",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "CC0402ZRY5V7BB334",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "e9526690ab2142ef88f50e11b3a64d89"
+          }
+        ],
+        [
+          "JK-MSMD110-24V",
+          2,
+          "F1812",
+          "F1,F2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C369172",
+            "BOM_Manufacturer": "Jinrui Electronic Materials Co.",
+            "BOM_Manufacturer Part": "JK-MSMD110-24V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ab17c647a0a943b09958724a36a719c7",
+            "uuid": "e1fdea76d5f64c27a150223a8573f104"
+          }
+        ],
+        [
+          "JK-SMD1210-050-24V",
+          1,
+          "F1210",
+          "F3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720078",
+            "BOM_Manufacturer": "Jinrui Electronic Materials Co.",
+            "BOM_Manufacturer Part": "JK-SMD1210-050-24V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b1a056b061d14265aafead66fd903fef",
+            "uuid": "78bfe66fba074a7cab22e59f4039e4fe"
+          }
+        ],
+        [
+          "1K",
+          3,
+          "R0402",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF5101TCE",
+            "BOM_Supplier Part": "C25905",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R0402",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1003TCE",
+            "BOM_Supplier Part": "C25741",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "3afede4c15c098992980e723e25db389"
+          }
+        ],
+        [
+          "XP3182",
+          2,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2802261",
+            "BOM_Manufacturer": "FM富满",
+            "BOM_Manufacturer Part": "XP3182",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "c3d0743075634eb9bdf7b81f03a0e491"
+          }
+        ],
+        [
+          "13kΩ",
+          2,
+          "R0402",
+          "U2,U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2693072",
+            "BOM_Manufacturer": "RESI(开步睿思）",
+            "BOM_Manufacturer Part": "PTFR0402B13K0P9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "8a7b77f49c4241d8b168c09d4db90e9a"
+          }
+        ],
+        [
+          "78D12AL-TN3-R",
+          1,
+          "TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UTC",
+            "BOM_Manufacturer Part": "78D12AL-TN3-R",
+            "BOM_Supplier Part": "C73290",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e8fa4688e69842c4b3e785dbd2e217da",
+            "uuid": "60b9d24855e840f9a0281520cd9ddf81"
+          }
+        ],
+        [
+          "SPM4015T-4R7M-LR",
+          2,
+          "IND-SMD_L4.4-W4.1",
+          "USB1,USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2052599",
+            "BOM_Manufacturer": "TDK",
+            "BOM_Manufacturer Part": "SPM4015T-4R7M-LR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4639b7207a6a476ea23a46fe75c092d3",
+            "uuid": "dfc9421cb86c4ec98a19e38f292fda00"
+          }
+        ]
+      ],
+      "updateTime": 1648146580,
+      "createTime": 1648137838,
+      "histories": [],
+      "created_at": "2022-03-24 19:03:58",
+      "updated_at": "2022-03-24 21:29:40"
+    },
+    {
+      "uuid": "9f52e7b334b6f8b59d58bd9cc97d4b94",
+      "title": "PDB",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e1fdea76d5f64c27a150223a8573f104": 2,
+        "c3d0743075634eb9bdf7b81f03a0e491": 2,
+        "3afede4c15c098992980e723e25db389": 2,
+        "03e4e26269207850c5e97889e40b1764": 6,
+        "ca94110f4544769d36adda4b0515e409": 3,
+        "dfc9421cb86c4ec98a19e38f292fda00": 2,
+        "ae84e89aa2a14b76b7b340c50b8fd393": 2,
+        "8a7b77f49c4241d8b168c09d4db90e9a": 2,
+        "353ff04a8071d3e6740fa5273965e20c": 3,
+        "9a1dab2264ee9c0dd27f0d885a0978e6": 3,
+        "78bfe66fba074a7cab22e59f4039e4fe": 1,
+        "e9526690ab2142ef88f50e11b3a64d89": 1,
+        "60b9d24855e840f9a0281520cd9ddf81": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "B2B-XH-A (LF)(SN)",
+          8,
+          "CONN-TH_B2B-XH-A-LF-SN",
+          "AVIONICS1,CAMERA1,CAMERA2,EJECTION1,EJECTION2,FLIGHTCONTROL1,MOTOR1,TELEMETRY1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C158012",
+            "BOM_Manufacturer": "JST Sales America",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3f20d4fbe7e743aa934c5cd06284db1c",
+            "uuid": "e121d28526db42a1ab28c19b6da8c1fc"
+          }
+        ],
+        [
+          "XT60PW-M",
+          2,
+          "CONN-TH_XT60PW-M",
+          "BATTERY1,BATTERY2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C98732",
+            "BOM_Manufacturer": "AMASS(艾迈斯)",
+            "BOM_Manufacturer Part": "XT60PW-M",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "165d52f5585146ec9f2302224e9153f2",
+            "uuid": "c2a8c52f6bda437986231e6186a19bb5"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0402",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
+          }
+        ],
+        [
+          "AO3401A",
+          2,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3401A",
+            "BOM_Supplier Part": "C15127",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "47d98c9c68d6170a5582756e1844827b"
+          }
+        ],
+        [
+          "White light_C2290",
+          3,
+          "LED0603-R-RD_WHITE",
+          "5V,14.8V,CAM",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "100nF",
+          3,
+          "C0402_NEW",
+          "C3,C9,C14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "176eead66a5c45e698aceb33a5f6fe97",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C0402",
+          "C4,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415703",
+            "BOM_Manufacturer": "Murata Electronics",
+            "BOM_Manufacturer Part": "GRM155R60J226ME11D",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "ae84e89aa2a14b76b7b340c50b8fd393"
+          }
+        ],
+        [
+          "4.7uF",
+          6,
+          "CAP-SMD_BD4.0-L4.3-W4.3-LS5.3-FD",
+          "C5,C6,C7,C8,C11,C12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ROQANG",
+            "BOM_Manufacturer Part": "RVT1V4R7M0405",
+            "BOM_Supplier Part": "C72511",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "751adf5dc5934c85b0f6759a18fc4e5e",
+            "uuid": "03e4e26269207850c5e97889e40b1764"
+          }
+        ],
+        [
+          "330nF",
+          1,
+          "C0402",
+          "C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527033",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "CC0402ZRY5V7BB334",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "e9526690ab2142ef88f50e11b3a64d89"
+          }
+        ],
+        [
+          "JK-MSMD110-24V",
+          2,
+          "F1812",
+          "F1,F2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C369172",
+            "BOM_Manufacturer": "Jinrui Electronic Materials Co.",
+            "BOM_Manufacturer Part": "JK-MSMD110-24V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ab17c647a0a943b09958724a36a719c7",
+            "uuid": "e1fdea76d5f64c27a150223a8573f104"
+          }
+        ],
+        [
+          "JK-SMD1210-050-24V",
+          1,
+          "F1210",
+          "F3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720078",
+            "BOM_Manufacturer": "Jinrui Electronic Materials Co.",
+            "BOM_Manufacturer Part": "JK-SMD1210-050-24V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b1a056b061d14265aafead66fd903fef",
+            "uuid": "78bfe66fba074a7cab22e59f4039e4fe"
+          }
+        ],
+        [
+          "1K",
+          3,
+          "R0402",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF5101TCE",
+            "BOM_Supplier Part": "C25905",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R0402",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1003TCE",
+            "BOM_Supplier Part": "C25741",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "3afede4c15c098992980e723e25db389"
+          }
+        ],
+        [
+          "XP3182",
+          2,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2802261",
+            "BOM_Manufacturer": "FM富满",
+            "BOM_Manufacturer Part": "XP3182",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "c3d0743075634eb9bdf7b81f03a0e491"
+          }
+        ],
+        [
+          "13kΩ",
+          2,
+          "R0402",
+          "U2,U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2693072",
+            "BOM_Manufacturer": "RESI(开步睿思）",
+            "BOM_Manufacturer Part": "PTFR0402B13K0P9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "8a7b77f49c4241d8b168c09d4db90e9a"
+          }
+        ],
+        [
+          "78D12AL-TN3-R",
+          1,
+          "TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UTC",
+            "BOM_Manufacturer Part": "78D12AL-TN3-R",
+            "BOM_Supplier Part": "C73290",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e8fa4688e69842c4b3e785dbd2e217da",
+            "uuid": "60b9d24855e840f9a0281520cd9ddf81"
+          }
+        ],
+        [
+          "SPM4015T-4R7M-LR",
+          2,
+          "IND-SMD_L4.4-W4.1",
+          "USB1,USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2052599",
+            "BOM_Manufacturer": "TDK",
+            "BOM_Manufacturer Part": "SPM4015T-4R7M-LR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4639b7207a6a476ea23a46fe75c092d3",
+            "uuid": "dfc9421cb86c4ec98a19e38f292fda00"
+          }
+        ]
+      ],
+      "updateTime": 1648147236,
+      "createTime": 1648137838,
+      "histories": [],
+      "created_at": "2022-03-24 19:03:58",
+      "updated_at": "2022-03-24 21:40:36"
+    },
+    {
+      "uuid": "39fa588726922c25f43192f003363499",
+      "puuid": "f94c1d48099af95be5b9d7100e6291f0",
+      "title": "PCB_NakujaPowerDistributionBoard",
+      "filename": "PCB_NakujaPowerDistributionBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3f20d4fbe7e743aa934c5cd06284db1c": 8,
+        "165d52f5585146ec9f2302224e9153f2": 2,
+        "ab17c647a0a943b09958724a36a719c7": 2,
+        "2a819e02584e46aea9f04b619de61270": 2,
+        "9a066f903e65476fa74739d5e9b0ceb9": 2,
+        "4639b7207a6a476ea23a46fe75c092d3": 2,
+        "f8eca159cd18407f9d5df374a1c2badf": 2,
+        "176eead66a5c45e698aceb33a5f6fe97": 3,
+        "0821ed6ea50c44f4909e4be7610e4198": 3,
+        "751adf5dc5934c85b0f6759a18fc4e5e": 6,
+        "b1a056b061d14265aafead66fd903fef": 1,
+        "fafd024f554e426eb74cf4a204aa88b0": 7,
+        "e8fa4688e69842c4b3e785dbd2e217da": 1,
+        "af16510a196f45a3b2eecfb1ed8360c1": 3
+      },
+      "BOM": [],
+      "updateTime": 1648147940,
+      "createTime": 1648146596,
+      "histories": [],
+      "created_at": "2022-03-24 21:29:56",
+      "updated_at": "2022-03-24 21:52:20"
+    }
+  ],
+  "sort": [
+    "939eb28d5883b793b3748b31bd0e4f89",
+    "9f52e7b334b6f8b59d58bd9cc97d4b94"
+  ],
+  "title": "NakujaPowerDistributionBoard",
+  "foldername": "NakujaPowerDistributionBoard",
+  "schfilename": "NakujaPowerDistributionBoard.json",
+  "schfilemtime": 1648147236754
+}
